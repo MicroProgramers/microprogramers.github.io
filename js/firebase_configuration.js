@@ -39,13 +39,13 @@ $(document).ready(function () {
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Subscribed!");
-                            alert('Updates enabled for $email');
+                            alert('Updates enabled for ${email}');
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
                         });
                 } else {
-                    alert('Already Subscribed!');
+                    alert('Already subscribed for updates!');
                 }
             });
 
