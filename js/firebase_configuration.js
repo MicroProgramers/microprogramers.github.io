@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     $('#notifs-form-btn').click(function (e) {
         var is_present = false;
-        email = $('#notifs-form-input').val();
+        var email = $('#notifs-form-input').val();
         if (validateEmail(email)) {
             db.collection('Emails').get().then(function (qs) {
                 qs.forEach(function (element) {
@@ -39,13 +39,13 @@ $(document).ready(function () {
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Subscribed!");
-                            alert('Updates enabled for ${email}');
+                            alert('Updates enabled for ' + email);
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
                         });
                 } else {
-                    alert('Already subscribed for updates!');
+                    alert('Already Subscribed!');
                 }
             });
 
