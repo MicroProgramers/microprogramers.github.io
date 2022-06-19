@@ -39,7 +39,7 @@ $(document).ready(function () {
                         .then(function (docRef) {
                             console.log("Document written with ID: ", docRef.id);
                             $("#notifs-form-btn").text("Subscribed!");
-                            alert('Updates enabled for this email');
+                            alert('Updates enabled for $email');
                         })
                         .catch(function (error) {
                             console.error("Error adding document: ", error);
