@@ -25,7 +25,7 @@ $(document).ready(function () {
         var is_present = false;
         var email = $('#notifs-form-input').val();
         if (validateEmail(email)) {
-            db.collection('Emails').get().then(function (qs) {
+            db.collection('emails').get().then(function (qs) {
                 qs.forEach(function (element) {
                     if (element.data()['ID'] == email) {
                         is_present = true;
@@ -33,7 +33,7 @@ $(document).ready(function () {
                 });
 
                 if (is_present == false) {
-                    db.collection("Emails").add({
+                    db.collection("emails").add({
                         'ID': email,
                     })
                         .then(function (docRef) {
