@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jul 4, 2022 00:00:00").getTime();
+var countDownDate = new Date("Jul 7, 2022 00:00:00").getTime();
     // Replace with desired date 'January 17, 2019 03:24:00', example
     // countDownDate.setDate('January 17, 2019 03:24:00').getTime();
     // countDownDate.setDate('Jul 1, 2022 12:00:00'.getTime());
