@@ -1,180 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>MicroProgramers</title>
-  <link rel="icon" type="image/x-icon" href="./img/logo.png">
-
-  <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase-firestore.js"></script>
-  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/firebase_configuration.js" type="text/javascript"></script>
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroProgramers</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"  crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/backgrounds/back.png" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Micro <span>Programers</span>
+                    
+                </h1>
+                <p>
+                    We've been working as an Applications Developers in the tech industry for the last 5 years. Our specialties include creating apps for businesses like e-commerce apps, Taxi & driver apps, Delivery Apps, Dating Apps, and many more according to the business requirements. With my development experience in different companies, We do help our customers to evaluate and make solutions to help their businesses grow. Lets chat! -MicroProgramers
+                </p>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>Us</span><span class="bg-text">About Us</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About Us</h4>
+                    <p>
+                        Our Software Company working from 5 years.. 
+                        & encouraging the mass to work with programming languages, 
+                        to become more advance in softwares developments. <br /> <br />
+                        MicroProgramers team help the people to approach advance world, 
+                        by giving proper guidance and internships programs. Anyone become a
+                         part of MicroProgramers team if he have some sort of knowledge about computer science.
+                    </p>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">90+</p>
+                            <p class="small-text">Mega Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">5+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">80+</p>
+                            <p class="small-text">Happy <br /> Clients</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">75+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Our Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="java"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Kotlin</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="kotlin"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Dart</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="dart"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Android Development</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="android"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">iOS Development</p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="ios"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Hybrid Development (Flutter)</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="flutter"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">XD/Figma/Illustrator</p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="graphics"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Video Editing</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="video"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>Recent <span>Projects</span><span class="bg-text">RecentProjects</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of our recent projects that we've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port1.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port4.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/projects/port7.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Our <span>Team</span><span class="bg-text">Our Team</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/team/mubashar.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Mubashar Hussain (Founder)
+                            </h4>
+                            <p>
+                                Founder of MicroProgramers Software Company Layyah Pakistan.
+                                Android Native Developer and senior Developer in the field of Flutter and Logics building.
 
-<body>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/tanveer.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Tanveer Abbas
+                            </h4>
+                            <p>
+                                Senior Flutter Front-end Developer and backend logics building expert in Python Programming Language (Numpy & Pandas Libraries)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/raheel.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Muhammad Raheel
+                            </h4>
+                            <p>
+                                Senoir Flutter Developer & Flutter Team Leader in MicroProgramers Software Company.
+                                Specialized in Firebase Handling
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/muhammad_ali.jpeg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Muhammad Ali
+                            </h4>
+                            <p>
+                                Senior Graphic Designer and Creative Designer in Figma App designing and Adobe Xd designs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/dumy.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Tasswur Abbas
+                            </h4>
+                            <p>
+                                Senior Android Developer and Team Leader in MicroProgramers Software Company. Logics Buildings Expert in JAVA Language
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/dumy.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Muhammad Umair
+                            </h4>
+                            <p>
+                                Senior Flutter Developer and backend logics building expert in Dart Programming Language.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/muaz.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Muhammad Muaz Shafi
+                            </h4>
+                            <p>
+                                Flutter Developer and logics buiding expert in Dart. Senior Graphics designer in Adobe Illustrator. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/team/hanan.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Abdul Hannan
+                            </h4>
+                            <p>
+                                Flutter front-end designer. Creative designer in Figma designing, Adobe illustrator and Adobe Photoshop.
+                            </p>
+                        </div>
+                    </div>
 
-  <br>
-  <br>
-  <br>
-   <div class="container mt-5">
-    <div class="row">
-      <div class="col-12">
-        <center>
-          <img src="./img/logo.png" class="mr-3" width="115px" height="100px">
-        </center>
-      </div>
-    </div> 
-  </div>
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-2 col-lg-1 col-4 mb-2 mb-md-0 timer-box pt-4 pb-4 mr-2">
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-num" name="days">00</div>
-          </div>
+                    <div class="blog">
+                        <img src="img/team/hamza.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Ameer Hamza
+                            </h4>
+                            <p>
+                                Junior Flutter Developer and logics buiding expert in Dart.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Us</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact Us here</h4>
+                        <p>
+                            To join our Micro Programers Software Company, Visit our office or contact us for more info.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location:  </span>
+                                </div>
+                                <a href="http://g.page/MicroProgramers" target="_blank">http://g.page/MicroProgramers</a>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email: </span>
+                                </div>
+                                <p>
+                                    <a href="mailto:contact@microProgramers.org" target="_blank">
+                                        contact@microProgramers.org
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages: </span>
+                                </div>
+                                <p>
+                                    <span>Urdu, English, French, German</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.facebook.com/MicroProgramers" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="https://twitter.com/microprogramers" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://instagram.com/micro_programers" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://youtube.com/CSWorlds" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Submit</span>
+                                    <span class="btn-icon"><i class="fas fa-check"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-text">Days</div>
-          </div>
+        <div class="control" data-id="about">
+            <i class="  fa fa-info"></i>
         </div>
-      </div>
-      <div class="col-md-2 col-lg-1 col-4 mb-2 mb-md-0 timer-box pt-4 pb-4 mr-2">
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-num" name="hours">00</div>
-          </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-text">Hours</div>
-          </div>
+        <div class="control" data-id="blogs">
+            <i class="fa fa-users"></i>
         </div>
-      </div>
-      <div class="col-md-2 col-lg-1 col-4 timer-box pt-4 pb-4 mr-2">
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-num" name="minutes">00</div>
-          </div>
+        <div class="control" data-id="contact">
+            <i class="fa fa-phone"></i>
         </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-text">Minutes</div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-lg-1 col-4 timer-box pt-4 pb-4 mr-2">
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-num" name="seconds">00</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="timer-box-text">Seconds</div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <br>
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-12 content">
-        <center>
-          <h4>Website is underdevelopment. Subscribe here for email notifications of future updates.</h4>
-        </center>
-      </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
     </div>
-    <div class="row mt-3 text-center">
-      <div class="col-12">
-        <form class="form-inline" style="display: inline" id="notifs-form">
-          <input type="email" class="form-control" id="notifs-form-input" aria-describedby="emailHelp" placeholder="Enter email">
-          <button type="button" class="btn btn-dark mt-2 mt-md-0" id="notifs-form-btn">Get notified</button>
-          <label class="notified-label"></label>
-        </form>
-      </div>
-    </div>
-    <div class="row" style="margin-top: 20px;">
-      <div class="col-12 content">
-        <center>
-          <h4>For any further queries email us at: <a href="mailto:contact@microprogramers.org">contact@microprogramers.org</a></h4>
-        </center>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <footer class="text-center page-footer">
-    <div class="pb-4 pt-4">
-      <a href="https://facebook.com/MicroProgramers" target="_blank">
-        <i class="fab fa-facebook-f mr-3 social-icon"></i>
-      </a>
-
-      <a href="https://twitter.com/MicroProgramers" target="_blank">
-        <i class="fab fa-twitter mr-3 social-icon"></i>
-      </a>
-
-      <a href="https://instagram.com/micro_programers" target="_blank">
-        <i class="fab fa-instagram mr-3 social-icon"></i>
-      </a>
-
-      <a href="https://snapchat.com/add/microprogramers" target="_blank">
-        <i class="fab fa-snapchat mr-3 social-icon"></i>
-      </a>
-    </div>
-  </footer>
-
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script src="js/require.js" type="text/javascript"></script>
-  <script src="js/countdown.js" type="text/javascript"></script>
-
-  
-  <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "106767410837058");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v14.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script src="app.js"></script>
 </body>
-
 </html>
